@@ -25,21 +25,21 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install this project template using the following command:
 
 ```
-composer create-project --prefer-dist yidas/yii2-app-basic
+composer create-project --prefer-dist yidas/yii2-app-lite
 ```
 
 Also, you can make a minimal installation without development tool:
 ```
-composer create-project --prefer-dist --no-dev yidas/yii2-app-basic
+composer create-project --prefer-dist --no-dev yidas/yii2-app-lite
 ```
 
-> With --no-dev project, remove the debug & gii usage from `config/web.php` to prevent error.
+> With --no-dev project, set to prod-env or remove the debug & gii usage from `config/web.php` to prevent error.
 
 ---
 
 ### Install from an Archive File
 
-[Download yii2-app-basic-2.0.12 Archive](https://github.com/yidas/yii2-app-basic/releases/download/2.0.12/yii2-app-basic-2.0.12.tar.gz)
+[Download yii2-app-lite-2.0.12 Archive](https://github.com/yidas/yii2-app-lite/releases/download/2.0.12/yii2-app-lite-2.0.12.tar.gz)
 
 1. Extract the downloaded file to a  Web-accessible folder, which includes vendor already.
 
@@ -51,7 +51,7 @@ composer create-project --prefer-dist --no-dev yidas/yii2-app-basic
       'cookieValidationKey' => '<secret random string goes here>',
   ],
   ```
-3. Check and modify the permission of `runtime` and `web/assets' folders to `777`.
+3. Check and modify the permission of `runtime` and `web/assets` folders to `777` if needed.
 
 ---
 
