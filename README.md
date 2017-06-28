@@ -3,6 +3,10 @@ Yii 2 Lite Application Template
 
 Yii 2 Light Application Template without Bower.
 
+[![Latest Stable Version](https://poser.pugx.org/yidas/yii2-app-lite/v/stable)](https://packagist.org/packages/yidas/yii2-app-lite)
+[![Latest Unstable Version](https://poser.pugx.org/yidas/yii2-app-lite/v/unstable)](https://packagist.org/packages/yidas/yii2-app-lite)
+[![License](https://poser.pugx.org/yidas/yii2-app-lite/license)](https://packagist.org/packages/yidas/yii2-app-lite)
+
 No Bower needed, less packages included, CDN Asset for View-Templates, let you start-up freely and refreshingly.
 
 ---
